@@ -1,0 +1,18 @@
+$color: rgb(250, 217, 157);
+$background-color: #755815;
+
+@mixin botonProductos {
+    align-self: center;
+    border: #000 2px solid;
+    color: $color;
+    font-size: 90%;
+    margin-bottom: 1.25%;
+}
+
+$fontSizes: (
+    xs: 120%,
+    s: 125%,
+    m: 140%,
+    l: 160%,
+    xl: 300%, 
+)
